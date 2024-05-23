@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Блокнот Здоровья</string>
+    <string name="add">Добавить</string>
+    <string name="sort">Отсортировать</string>
+    <string name="input_text">Поиск</string>
+    <string name="input_title">Заголовок</string>
+    <string name="save">Сохранить</string>
+    <string name="input_pulse">Пульс</string>
+    <string name="input_pres_up">SYS</string>
+    <string name="input_pres_down">DIA</string>
+    <string name="input_dr_t">Сон(полное количество часов)</string>
+    <string name="input_temp">Температура</string>
+    <string name="input_weig">Вес</string>
+    <string name="input_description">Описание</string>
+    <string name="input_price">Input Price</string>
+</resources>

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="16dp"
+    android:background="#FFFFFF"
+    tools:context=".ui.AddNewProductActivity">
+
+    <EditText
+        android:padding="8dp"
+        android:id="@+id/editTextTitle"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="@string/input_title"
+        android:inputType="textCapWords"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:textColorHint="#4CAF50"/>
+    <EditText
+        android:id="@+id/editTextPulse"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="40dp"
+        android:hint="@string/input_pulse"
+        android:inputType="numberDecimal"
+        android:padding="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:textColorHint="#4CAF50"/>
+
+    <EditText
+        android:id="@+id/editTextPresUp"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="80dp"
+        android:hint="@string/input_pres_up"
+        android:inputType="numberDecimal"
+        android:padding="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:textColorHint="#4CAF50"/>
+
+    <EditText
+        android:id="@+id/editTextPresDown"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="120dp"
+        android:hint="@string/input_pres_down"
+        android:inputType="numberDecimal"
+        android:padding="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:textColorHint="#4CAF50"/>
+
+    <EditText
+        android:id="@+id/editTextDrT"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="160dp"
+        android:hint="@string/input_dr_t"
+        android:inputType="numberDecimal"
+        android:padding="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:textColorHint="#4CAF50"/>
+
+    <EditText
+        android:id="@+id/editTextTemp"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="200dp"
+        android:hint="@string/input_temp"
+        android:inputType="numberDecimal"
+        android:padding="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:textColorHint="#4CAF50"/>
+
+    <EditText
+        android:id="@+id/editTextWeig"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="240dp"
+        android:hint="@string/input_weig"
+        android:inputType="numberDecimal"
+        android:padding="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:textColorHint="#4CAF50"/>
+
+    <EditText
+        android:padding="8dp"
+        android:id="@+id/editTextDescription"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:hint="@string/input_description"
+        android:inputType="textMultiLine"
+        android:gravity="top"
+        app:layout_constraintTop_toBottomOf="@+id/editTextWeig"
+        android:textColorHint="#4CAF50"/>
+
+    <Button
+        android:id="@+id/btnSaveProduct"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/save"
+        android:textColor="@color/white"
+        android:backgroundTint="#4CAF50"
+        app:layout_constraintTop_toBottomOf="@id/editTextDescription" />
+</androidx.constraintlayout.widget.ConstraintLayout>
